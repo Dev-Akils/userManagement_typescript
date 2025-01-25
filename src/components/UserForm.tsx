@@ -15,6 +15,7 @@ const UserForm: React.FC = () => {
       name,
       email,
     };
+    console.log(newUser.id);
     dispatch(addUser(newUser));
     setName("");
     setEmail("");

@@ -3,3 +3,5 @@ npx create-react-app __ --template typescript
 npm i @reduxjs/toolkit react-redux react-redux axios
 
 npm i react-router-dom @types/react-router-dom
+
+npm i ajv-keywords@3 ajv@6
