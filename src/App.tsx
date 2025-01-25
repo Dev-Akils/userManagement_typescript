@@ -10,7 +10,7 @@ import UserFormPro from './PropsPassing/UserFormPro';
 import {createContext,useContext} from 'react';
 import UserFormContext from './usercontext/UserFormContext';
 
-
+import UseReducer from './useReducer/UseReducer';
 // Normal Api feching and User management Crud operations
 // Normal Api fecting and User management with Props(passing Data)
 
@@ -102,6 +102,11 @@ function App() {
       
       <UserForm/>
       <UserList/> */}
+
+
+      {/* useReducer-To create a counter that can increment and decrement it's value */}
+
+      <UseReducer/>
     </div>
   );
 }
